@@ -1,0 +1,72 @@
+
+
+a{
+    text-decoration: none;
+}
+
+
+.linkbox{
+    text-align: center;
+}
+
+.text h2{
+    
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.line{
+    width: 150px;
+    height: 1vmin;
+    background: purple;
+    margin: 10px auto;
+    margin-bottom: 3%;
+    border-radius: 30px;
+}
+
+.links{
+   
+    height: 40px;
+    align-items: center;
+    text-align: center;
+   
+    background: white;
+    padding: 10px 25px;
+    top:0;
+    z-index: 100;
+}
+
+.moptions ul li{
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 35px;
+
+}
+
+.moptions ul li a{
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0.5px 8px;
+    padding-right: 5px;
+    position: relative;
+    
+}
+
+.moptions ul li a::after,
+.moptions ul li a.active ::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #d828c9;
+    position: absolute;
+    bottom: -15px;
+    transition: width0.3s;
+}
+
+.moptions ul li a:hover::after{
+    width: 100%;
+
+}

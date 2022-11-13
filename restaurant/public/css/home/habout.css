@@ -1,0 +1,69 @@
+/*------------------------about----------------------*/
+.about{
+
+
+    background-color: white;
+    height: 90%;
+    width: 100%;
+}
+
+.about .imgbox{
+    background-color: white;
+    width: 60%;
+    height: 88%;
+    float:right;
+    
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.imgg{
+    width: 100%;
+    height: 100%;
+}
+
+.abouttext{
+    
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.textbox{
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.textbox h1{
+    font-size: 12px;
+    color: rgb(82, 78, 78);
+}
+
+.textbox h2{
+    font-size: 30px;
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textbox p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.text h2{
+    margin-top: 3%;
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.line{
+    width: 150px;
+    height: 1vmin;
+    background: purple;
+    margin: 10px auto;
+    margin-bottom: 3%;
+    border-radius: 30px;
+}

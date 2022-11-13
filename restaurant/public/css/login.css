@@ -1,0 +1,156 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+
+.container{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.imgbox{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.imgbox img{
+    width: 100%;
+    height: 100%; 
+}
+
+.blur{
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(rgba(199, 192, 192, 0.7),rgba(226, 221, 217, 0.7));
+    position: absolute;
+    top: 0;
+}
+
+.loginbox{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding: 60px 15px;
+    width: 30%;
+    height: 60%;
+    background: linear-gradient(rgba(22, 22, 22, 0.7),rgba(26, 25, 25, 0.7));
+    box-shadow: 0px 0px 10px 0px rgb(116, 119, 114);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+ i{
+    position: absolute;
+    margin-left:46%;
+    font-size: 650%;
+    color: rgb(49, 0, 128);
+    margin-top: 6%;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+.form{
+    margin-top: 5%;
+}
+
+#email{
+	    width: 100%;
+        height: 15%;
+        padding: 5px 0;
+        box-shadow: 5px 5px 2px 2px rgba(37, 37, 37, 0.863);
+        outline: none;
+        cursor: pointer;
+
+
+}
+#email:hover{
+    box-shadow: 5px 5px 2px 2px rgb(49, 0, 128);;
+    border:none;
+    
+}
+#pass{
+	width: 100%;
+        height: 15%;
+        padding: 5px 0;
+        box-shadow: 5px 5px 2px 2px rgba(37, 37, 37, 0.863);
+        outline: none;
+        cursor: pointer;
+  
+}
+
+#pass:hover{
+    box-shadow: 5px 5px 2px 2px rgb(49, 0, 128);
+    border:none;
+}
+
+ .cbox{
+    float:left;
+	margin: 5px 5px 5px 0;
+    /*text-align: left;*/
+    border-left: 0;
+	border-right: 0;
+    float: left;
+}
+
+.re{
+    color:whitesmoke;
+}
+
+.log {
+	width: 85%;
+	padding: 10px 30px;
+    height: 14%;
+	cursor: pointer;
+    color: black;
+	display: block;
+	margin: auto;
+	background: white;
+    border: 2px solid rgb(49, 0, 128);;
+	outline: none;
+	border-radius: 30px;
+	margin-top: 7%;
+    font-size: 18px;
+    transition: 0.4%;
+    font-weight: bold;
+}
+
+.log:hover{
+    background: rgb(49, 0, 128);;
+    color: white;
+}
+
+.forg{
+    text-align: center;
+    cursor: pointer;
+}
+
+.forg a {
+  color: whitesmoke;
+}
+
+.forg a:hover{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+.text-danger{
+    color:red;
+    
+}
